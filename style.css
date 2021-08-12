@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 400px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+   
+}
+.main:hover p{
+    transform: translatey(0);
+
+    
+    
+}
+p {
+    transition-property:transform ;
+    transition-duration:.5s ;
+
+}
+img {
+    display: block;
+    width: 100%;
+
+}
+p {
+    background-color: rgba(151, 83, 207, 0.445);
+    padding: 30px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform:translatey(100%)
+}
